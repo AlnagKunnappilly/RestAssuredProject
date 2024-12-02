@@ -1,0 +1,220 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 02 12:26:25 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>42 seconds (42844 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.testcases.userTestCases.deleteUser()'><b>deleteUser</b><br>Test class: api.testcases.userTestCases<br>Parameters: N680</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+<tr>
+<td title='api.testcases.userTestCases.createUser()'><b>createUser</b><br>Test class: api.testcases.userTestCases<br>Parameters: 16767, Ja667, Jane, Kivin, kinaya@gmail.com, 60987, 7868008</td>
+<td></td>
+<td>3</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+<tr>
+<td title='api.testcases.userTestCases.createUser()'><b>createUser</b><br>Test class: api.testcases.userTestCases<br>Parameters: 79083, M178, Mary, jacob, Minya@gmail.com, 67687, 2342423</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+<tr>
+<td title='api.testcases.userTestCases.createUser()'><b>createUser</b><br>Test class: api.testcases.userTestCases<br>Parameters: 65622, L689, Lidiya, Manudev, Mithun@gmail.com, 3454we, 342424</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+<tr>
+<td title='api.testcases.userTestCases.createUser()'><b>createUser</b><br>Test class: api.testcases.userTestCases<br>Parameters: 76870, N680, Nithya, Carlton, Stna@gmail.com, 2hhk6, 6877008</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+<tr>
+<td title='api.testcases.StoreTestCases.getOrderById()'><b>getOrderById</b><br>Test class: api.testcases.StoreTestCases</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.StoreTestCases@5c00384f</td></tr>
+<tr>
+<td title='api.testcases.userTestCases.deleteUser()'><b>deleteUser</b><br>Test class: api.testcases.userTestCases<br>Parameters: L689</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+<tr>
+<td title='api.testcases.userTestCases.getUser()'><b>getUser</b><br>Test class: api.testcases.userTestCases<br>Parameters: Ja667</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+<tr>
+<td title='api.testcases.userTestCases.getUser()'><b>getUser</b><br>Test class: api.testcases.userTestCases<br>Parameters: M178</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+<tr>
+<td title='api.testcases.userTestCases.updateUser()'><b>updateUser</b><br>Test class: api.testcases.userTestCases</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+<tr>
+<td title='api.testcases.StoreTestCases.createOrder()'><b>createOrder</b><br>Test class: api.testcases.StoreTestCases<br>Parameters: 2, 11, 1, 2024-12-13T14:01:09.274+0000, pending, true</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.StoreTestCases@5c00384f</td></tr>
+<tr>
+<td title='api.testcases.petTestCases.createPet()'><b>createPet</b><br>Test class: api.testcases.petTestCases<br>Parameters: 0, api.payload.Category@5afaae7e, Fluffy, [https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=800], [Tag{id=877, name='Poo8'}], pending</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.petTestCases@36f48b4</td></tr>
+<tr>
+<td title='api.testcases.petTestCases.getPetByStatus()'><b>getPetByStatus</b><br>Test class: api.testcases.petTestCases</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.petTestCases@36f48b4</td></tr>
+<tr>
+<td title='api.testcases.userTestCases.getUser()'><b>getUser</b><br>Test class: api.testcases.userTestCases<br>Parameters: L689</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+<tr>
+<td title='api.testcases.petTestCases.getPet()'><b>getPet</b><br>Test class: api.testcases.petTestCases</td>
+<td></td>
+<td>5</td>
+<td>api.testcases.petTestCases@36f48b4</td></tr>
+<tr>
+<td title='api.testcases.StoreTestCases.createOrder()'><b>createOrder</b><br>Test class: api.testcases.StoreTestCases<br>Parameters: 1, 10, 1, 2024-12-13T14:01:09.274+0000, available, true</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.StoreTestCases@5c00384f</td></tr>
+<tr>
+<td title='api.testcases.petTestCases.createPet()'><b>createPet</b><br>Test class: api.testcases.petTestCases<br>Parameters: 0, api.payload.Category@2f8b48c3, Rocky, [https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500], [Tag{id=145, name='Lab1'}], available</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.petTestCases@36f48b4</td></tr>
+<tr>
+<td title='api.testcases.StoreTestCases.extentConfigureStore()'><b>extentConfigureStore</b><br>Test class: api.testcases.StoreTestCases</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.StoreTestCases@5c00384f</td></tr>
+<tr>
+<td title='api.testcases.StoreTestCases.deleteOrderById()'><b>deleteOrderById</b><br>Test class: api.testcases.StoreTestCases</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.StoreTestCases@5c00384f</td></tr>
+<tr>
+<td title='api.testcases.userTestCases.getUser()'><b>getUser</b><br>Test class: api.testcases.userTestCases<br>Parameters: N680</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+<tr>
+<td title='api.testcases.StoreTestCases.createOrder()'><b>createOrder</b><br>Test class: api.testcases.StoreTestCases<br>Parameters: 3, 12, 2, 2024-12-13T14:01:09.274+0000, sold, true</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.StoreTestCases@5c00384f</td></tr>
+<tr>
+<td title='api.testcases.userTestCases.deleteUser()'><b>deleteUser</b><br>Test class: api.testcases.userTestCases<br>Parameters: M178</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+<tr>
+<td title='api.testcases.petTestCases.createPet()'><b>createPet</b><br>Test class: api.testcases.petTestCases<br>Parameters: 0, api.payload.Category@37e28b20, Lucky, [https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=800], [Tag{id=389, name='Ger3'}], sold</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.petTestCases@36f48b4</td></tr>
+<tr>
+<td title='api.testcases.petTestCases.createPet()'><b>createPet</b><br>Test class: api.testcases.petTestCases<br>Parameters: 0, api.payload.Category@2b30b25f, Kitty, [https://images.pexels.com/photos/1490908/pexels-photo-1490908.jpeg?auto=compress&cs=tinysrgb&w=800], [Tag{id=616, name='Co6'}], available</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.petTestCases@36f48b4</td></tr>
+<tr>
+<td title='api.testcases.petTestCases.extentConfigurePet()'><b>extentConfigurePet</b><br>Test class: api.testcases.petTestCases</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.petTestCases@36f48b4</td></tr>
+<tr>
+<td title='api.testcases.StoreTestCases.getInventoryByStatus()'><b>getInventoryByStatus</b><br>Test class: api.testcases.StoreTestCases</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.StoreTestCases@5c00384f</td></tr>
+<tr>
+<td title='api.testcases.petTestCases.createPet()'><b>createPet</b><br>Test class: api.testcases.petTestCases<br>Parameters: 0, api.payload.Category@58fb5b8f, Ceasar, [https://images.pexels.com/photos/220938/pexels-photo-220938.jpeg?auto=compress&cs=tinysrgb&w=800], [Tag{id=900, name='Ind9'}], available</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.petTestCases@36f48b4</td></tr>
+<tr>
+<td title='api.testcases.userTestCases.deleteUser()'><b>deleteUser</b><br>Test class: api.testcases.userTestCases<br>Parameters: Ja667</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.userTestCases@58fe0499</td></tr>
+</table><p>
+</body>
+</html>

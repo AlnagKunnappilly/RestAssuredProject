@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-02T12:26:25 IST" name="Suite" finished-at="2024-12-02T12:27:07 IST" duration-ms="42844">
+    <groups>
+    </groups>
+    <test started-at="2024-12-02T12:26:25 IST" name="Test" finished-at="2024-12-02T12:27:07 IST" duration-ms="42844">
+      <class name="api.testcases.StoreTestCases">
+        <test-method signature="extentConfigureStore()[pri:0, instance:api.testcases.StoreTestCases@5c00384f]" started-at="2024-12-02T12:27:00 IST" name="extentConfigureStore" finished-at="2024-12-02T12:27:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentConfigureStore -->
+        <test-method signature="createOrder(int,int,int,java.lang.String,java.lang.String,java.lang.Boolean)[pri:1, instance:api.testcases.StoreTestCases@5c00384f]" started-at="2024-12-02T12:27:00 IST" name="createOrder" data-provider="Order Data" finished-at="2024-12-02T12:27:01 IST" duration-ms="1226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2024-12-13T14:01:09.274+0000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrder -->
+        <test-method signature="createOrder(int,int,int,java.lang.String,java.lang.String,java.lang.Boolean)[pri:1, instance:api.testcases.StoreTestCases@5c00384f]" started-at="2024-12-02T12:27:01 IST" name="createOrder" data-provider="Order Data" finished-at="2024-12-02T12:27:02 IST" duration-ms="1132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2024-12-13T14:01:09.274+0000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pending]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrder -->
+        <test-method signature="createOrder(int,int,int,java.lang.String,java.lang.String,java.lang.Boolean)[pri:1, instance:api.testcases.StoreTestCases@5c00384f]" started-at="2024-12-02T12:27:02 IST" name="createOrder" data-provider="Order Data" finished-at="2024-12-02T12:27:03 IST" duration-ms="1094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2024-12-13T14:01:09.274+0000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sold]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrder -->
+        <test-method signature="getInventoryByStatus()[pri:2, instance:api.testcases.StoreTestCases@5c00384f]" started-at="2024-12-02T12:27:03 IST" name="getInventoryByStatus" finished-at="2024-12-02T12:27:05 IST" duration-ms="1133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInventoryByStatus -->
+        <test-method signature="getOrderById()[pri:3, instance:api.testcases.StoreTestCases@5c00384f]" started-at="2024-12-02T12:27:05 IST" name="getOrderById" finished-at="2024-12-02T12:27:06 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderById -->
+        <test-method signature="deleteOrderById()[pri:4, instance:api.testcases.StoreTestCases@5c00384f]" started-at="2024-12-02T12:27:06 IST" name="deleteOrderById" finished-at="2024-12-02T12:27:07 IST" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrderById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:api.testcases.StoreTestCases@5c00384f]" started-at="2024-12-02T12:27:07 IST" name="tearDown" finished-at="2024-12-02T12:27:07 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- api.testcases.StoreTestCases -->
+      <class name="api.testcases.userTestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:25 IST" name="setup" finished-at="2024-12-02T12:26:25 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:26 IST" name="createUser" data-provider="User Data" finished-at="2024-12-02T12:26:30 IST" duration-ms="3620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16767]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ja667]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kivin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[kinaya@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60987]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7868008]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:30 IST" name="createUser" data-provider="User Data" finished-at="2024-12-02T12:26:31 IST" duration-ms="1228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[79083]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M178]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mary]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jacob]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Minya@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[67687]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2342423]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:31 IST" name="createUser" data-provider="User Data" finished-at="2024-12-02T12:26:32 IST" duration-ms="1146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[76870]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N680]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nithya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Carlton]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Stna@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2hhk6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[6877008]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:32 IST" name="createUser" data-provider="User Data" finished-at="2024-12-02T12:26:33 IST" duration-ms="1121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[65622]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L689]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lidiya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Manudev]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mithun@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3454we]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[342424]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="getUser(java.lang.String)[pri:2, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:33 IST" name="getUser" data-provider="Fetch userName" finished-at="2024-12-02T12:26:35 IST" duration-ms="1375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ja667]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="getUser(java.lang.String)[pri:2, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:35 IST" name="getUser" data-provider="Fetch userName" finished-at="2024-12-02T12:26:36 IST" duration-ms="1199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M178]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="getUser(java.lang.String)[pri:2, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:36 IST" name="getUser" data-provider="Fetch userName" finished-at="2024-12-02T12:26:37 IST" duration-ms="1120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N680]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="getUser(java.lang.String)[pri:2, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:37 IST" name="getUser" data-provider="Fetch userName" finished-at="2024-12-02T12:26:38 IST" duration-ms="1144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L689]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="updateUser()[pri:3, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:38 IST" name="updateUser" finished-at="2024-12-02T12:26:41 IST" duration-ms="2547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="deleteUser(java.lang.String)[pri:4, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:41 IST" name="deleteUser" data-provider="Fetch userName" finished-at="2024-12-02T12:26:42 IST" duration-ms="1107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ja667]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="deleteUser(java.lang.String)[pri:4, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:42 IST" name="deleteUser" data-provider="Fetch userName" finished-at="2024-12-02T12:26:43 IST" duration-ms="1099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M178]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="deleteUser(java.lang.String)[pri:4, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:43 IST" name="deleteUser" data-provider="Fetch userName" finished-at="2024-12-02T12:26:44 IST" duration-ms="1140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N680]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="deleteUser(java.lang.String)[pri:4, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:26:44 IST" name="deleteUser" data-provider="Fetch userName" finished-at="2024-12-02T12:26:45 IST" duration-ms="1089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L689]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:api.testcases.userTestCases@58fe0499]" started-at="2024-12-02T12:27:07 IST" name="tearDown" finished-at="2024-12-02T12:27:07 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- api.testcases.userTestCases -->
+      <class name="api.testcases.petTestCases">
+        <test-method signature="extentConfigurePet()[pri:0, instance:api.testcases.petTestCases@36f48b4]" started-at="2024-12-02T12:26:45 IST" name="extentConfigurePet" finished-at="2024-12-02T12:26:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentConfigurePet -->
+        <test-method signature="createPet(int,api.payload.Category,java.lang.String,java.util.List,java.util.List,java.lang.String)[pri:1, instance:api.testcases.petTestCases@36f48b4]" started-at="2024-12-02T12:26:45 IST" name="createPet" data-provider="Pet Data" finished-at="2024-12-02T12:26:48 IST" duration-ms="2423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[api.payload.Category@2f8b48c3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rocky]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[Tag{id=145, name='Lab1'}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPet -->
+        <test-method signature="createPet(int,api.payload.Category,java.lang.String,java.util.List,java.util.List,java.lang.String)[pri:1, instance:api.testcases.petTestCases@36f48b4]" started-at="2024-12-02T12:26:48 IST" name="createPet" data-provider="Pet Data" finished-at="2024-12-02T12:26:49 IST" duration-ms="1145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[api.payload.Category@37e28b20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lucky]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=800]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[Tag{id=389, name='Ger3'}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPet -->
+        <test-method signature="createPet(int,api.payload.Category,java.lang.String,java.util.List,java.util.List,java.lang.String)[pri:1, instance:api.testcases.petTestCases@36f48b4]" started-at="2024-12-02T12:26:49 IST" name="createPet" data-provider="Pet Data" finished-at="2024-12-02T12:26:50 IST" duration-ms="1120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[api.payload.Category@5afaae7e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fluffy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=800]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[Tag{id=877, name='Poo8'}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pending]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPet -->
+        <test-method signature="createPet(int,api.payload.Category,java.lang.String,java.util.List,java.util.List,java.lang.String)[pri:1, instance:api.testcases.petTestCases@36f48b4]" started-at="2024-12-02T12:26:50 IST" name="createPet" data-provider="Pet Data" finished-at="2024-12-02T12:26:51 IST" duration-ms="1182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[api.payload.Category@58fb5b8f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ceasar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[https://images.pexels.com/photos/220938/pexels-photo-220938.jpeg?auto=compress&cs=tinysrgb&w=800]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[Tag{id=900, name='Ind9'}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPet -->
+        <test-method signature="createPet(int,api.payload.Category,java.lang.String,java.util.List,java.util.List,java.lang.String)[pri:1, instance:api.testcases.petTestCases@36f48b4]" started-at="2024-12-02T12:26:51 IST" name="createPet" data-provider="Pet Data" finished-at="2024-12-02T12:26:52 IST" duration-ms="1183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[api.payload.Category@2b30b25f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kitty]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[https://images.pexels.com/photos/1490908/pexels-photo-1490908.jpeg?auto=compress&cs=tinysrgb&w=800]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[Tag{id=616, name='Co6'}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPet -->
+        <test-method signature="getPet()[pri:2, instance:api.testcases.petTestCases@36f48b4]" started-at="2024-12-02T12:26:53 IST" name="getPet" finished-at="2024-12-02T12:26:58 IST" duration-ms="5679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPet -->
+        <test-method signature="getPetByStatus()[pri:3, instance:api.testcases.petTestCases@36f48b4]" started-at="2024-12-02T12:26:58 IST" name="getPetByStatus" finished-at="2024-12-02T12:27:00 IST" duration-ms="1551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetByStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:api.testcases.petTestCases@36f48b4]" started-at="2024-12-02T12:27:07 IST" name="tearDown" finished-at="2024-12-02T12:27:07 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- api.testcases.petTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
